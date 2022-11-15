@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tac.css">
+  </head>
+  <body>
+	<div class="title">Tic Tac Toe Game</div>
+	<div class="scoreboard">
+		<div class="score" id="playerOne">0</div>
+		<div class="player" id="ex">Player One
+		</div>
+		<div class="player" id="oh">Player Two
+		</div>
+		<div class="score" id="playerTwo">0</div>
+	</div>
+	<div class="holder">
+		<div class="square" id="one">
+			<button type="button" class="invis" onclick="makeMove(this)" id="one1"></button>
+		</div>
+		<div class="square" id="two">
+			<button type="button" class="invis" onclick="makeMove(this)" id="two2"></button>
+		</div>
+		<div class="square" id="three">
+			<button type="button" class="invis" onclick="makeMove(this)"id="three3"></button>
+		</div>
+		<div class="square" id="four">
+			<button type="button" class="invis" onclick="makeMove(this)"id="four4"></button>
+		</div>
+		<div class="square" id="five">
+			<button type="button" class="invis" onclick="makeMove(this)"id="five5"></button>
+		</div>
+		<div class="square" id="six">
+			<button type="button" class="invis" onclick="makeMove(this)"id="six6"></button>
+		</div>
+		<div class="square" id="seven">
+			<button type="button" class="invis" onclick="makeMove(this)"id="seven7"></button>
+		</div>
+		<div class="square" id="eight">
+			<button type="button" class="invis" onclick="makeMove(this)"id="eight8"></button>
+		</div>
+		<div class="square" id="nine">
+			<button type="button" class="invis" onclick="makeMove(this)"id="nine9"></button>
+		</div>
+	</div>
+	<div class="controls">
+		<div class="control"><button class="Button" type="button" onclick="newRound()">Next Round</button></div>
+		<div class="control"><button class="Button" type="button" onclick="newGame()">New Game</button></div>
+	</div>
+	<script src="toe.js"></script>
+  </body>
+</html>
